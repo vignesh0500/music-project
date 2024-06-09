@@ -1,0 +1,53 @@
+
+:root{
+    --primary:#1a2130 !important;
+    --primary-color:white;
+}
+.primary{
+background-color: var(--primary) !important;
+}
+.primary-color{
+color:var(--primary-color)
+}
+/* bottom */
+.AnirudhRavichander{
+    min-height: 86vh;
+    background-color: #1a2130;
+}
+.bottom{
+    height: 80px;
+    flex-direction: column;
+}
+#myprogressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songlist{
+    min-height: 75vh;
+    background-image: url(./img/Anirudh-Ravichander.jpg);
+    background-size: cover;
+}
+.songitem{
+    height: 50px;
+}
+.songitem img{
+width:7%;
+}
+/*  */
+.VijayAntony{
+    min-height: 86vh;
+    background-color: #1a2130;
+}
+.VijayAntony .songlist{
+    background-image: url(./img/VijayAntony-54.jpg);
+    background-size:cover;
+}
+/*  */
+.AR-rahman{
+    min-height: 86vh;
+    background-color: #1a2130;
+}
+.AR-rahman .songlist{
+    background-image: url(./img/a_r_rahman_90-orig1571129450.jpg);
+    background-size:cover;
+}
